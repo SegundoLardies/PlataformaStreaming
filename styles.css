@@ -29,6 +29,11 @@ body {
     color: #fff;
     text-decoration: none;
   }
+
+  nav ul li a:hover {
+    color: #8ac3ff;
+    text-decoration: none;
+  }
   
   main {
     max-width: 1200px;
@@ -53,7 +58,7 @@ body {
   }
 
 
-#container1 {
+#containerCuenta {
     width: 70%;
     margin: 0 auto;
     background-color: #fff;
@@ -62,12 +67,12 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
   
-  .cuenta {
+  #containerCuenta h1 {
     text-align: center;
     margin-top: 0;
   }
   
-  .inicio {
+  .formulario {
     display: flex;
     flex-direction: column;
   }
@@ -82,7 +87,7 @@ body {
     margin-bottom: 10px;
   }
   
-  #crearcuenta {
+  .boton {
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -91,21 +96,21 @@ body {
     cursor: pointer;
   }
   
-  #crearcuenta:hover {
+  .boton:hover {
     background-color: #0062cc;
   }
   
-  .cuenta {
+  #containerCuenta p{
     margin-top: 20px;
     text-align: center;
   }
   
-  .cuenta2 {
+  .hyperlink {
     color: #007bff;
     text-decoration: none;
   }
   
-  .cuenta2:hover {
+  .hyperlink:hover {
     text-decoration: underline;
   }
   
